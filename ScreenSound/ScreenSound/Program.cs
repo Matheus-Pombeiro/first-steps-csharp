@@ -24,6 +24,7 @@ void ExibirLogo()
 
 void ExibirOpcoesDoMenu()
 {
+    Console.Clear();
     ExibirLogo();
     Console.WriteLine("\nDigite 1 para registrar uma banda");
     Console.WriteLine("Digite 2 para listar todas as bandas");
@@ -44,7 +45,7 @@ void ExibirOpcoesDoMenu()
             MostrarBandas();
             break;
         case 3:
-            Console.WriteLine("Você digitou a opção " + opcaoEscolhidaNumerica);
+            AvaliarUmaBanda();
             break;
         case 4:
             Console.WriteLine("Você digitou a opção " + opcaoEscolhidaNumerica);
@@ -67,7 +68,6 @@ void RegistrarBanda()
     bandasRegistradas.Add(nomeDaBanda, new List<int>());
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso!");
     Thread.Sleep(2000);
-    Console.Clear();
     ExibirOpcoesDoMenu();
 }
 
@@ -80,7 +80,6 @@ void MostrarBandas()
     }
     Console.WriteLine("\nDigite uma tecla para voltar ao menu principal");
     Console.ReadKey();
-    Console.Clear();
     ExibirOpcoesDoMenu();
 }
 
@@ -102,7 +101,23 @@ void AvaliarUmaBanda()
     // Senão >> volta ao menu principal
 
     ExibirTituloDaOpcao("Avaliar Banda");
-
+    Console.Write("Digite o nome da banda que deseja avaliar: ");
+    string nomeDaBanda = Console.ReadLine()!;
+    if (bandasRegistradas.ContainsKey(nomeDaBanda))
+    {
+        Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
+        int nota = int.Parse(Console.ReadLine()!);
+        bandasRegistradas[nomeDaBanda].Add(nota);
+        Console.WriteLine($"\nA nota {nota} para a banda {nomeDaBanda} foi registrada com sucesso!");
+        Thread.Sleep(4000);
+        ExibirOpcoesDoMenu();
+    } else
+    {
+        Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada.");
+        Console.WriteLine("Digite uma tecla para voltar ao menu principal");
+        Console.ReadKey();
+        ExibirOpcoesDoMenu();
+    }
 }
 
 ExibirOpcoesDoMenu();
