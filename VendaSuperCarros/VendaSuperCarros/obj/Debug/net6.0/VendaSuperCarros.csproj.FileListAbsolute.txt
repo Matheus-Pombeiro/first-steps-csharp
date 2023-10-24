@@ -1,0 +1,14 @@
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\bin\Debug\net6.0\VendaSuperCarros.exe
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\bin\Debug\net6.0\VendaSuperCarros.deps.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\bin\Debug\net6.0\VendaSuperCarros.runtimeconfig.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\bin\Debug\net6.0\VendaSuperCarros.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\bin\Debug\net6.0\VendaSuperCarros.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.AssemblyInfoInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.AssemblyInfo.cs
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.csproj.CoreCompileInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\refint\VendaSuperCarros.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\VendaSuperCarros.genruntimeconfig.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\VendaSuperCarros\VendaSuperCarros\obj\Debug\net6.0\ref\VendaSuperCarros.dll
