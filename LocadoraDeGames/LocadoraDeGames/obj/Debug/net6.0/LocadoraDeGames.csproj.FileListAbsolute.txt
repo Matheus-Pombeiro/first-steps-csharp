@@ -1,0 +1,14 @@
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.AssemblyInfoInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.AssemblyInfo.cs
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.csproj.CoreCompileInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\bin\Debug\net6.0\LocadoraDeGames.exe
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\bin\Debug\net6.0\LocadoraDeGames.deps.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\bin\Debug\net6.0\LocadoraDeGames.runtimeconfig.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\bin\Debug\net6.0\LocadoraDeGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\bin\Debug\net6.0\LocadoraDeGames.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\refint\LocadoraDeGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\LocadoraDeGames.genruntimeconfig.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\LocadoraDeGames\LocadoraDeGames\obj\Debug\net6.0\ref\LocadoraDeGames.dll

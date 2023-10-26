@@ -1,12 +1,40 @@
 ﻿// Locadora de Games
 
+// Lista de Games e suas notas
+Dictionary<string, List<int>> games = new Dictionary<string, List<int>>()
+{
+    {
+        "Fable", new List<int>{ 10, 8, 9, 7 }
+    },
+    {
+        "Skyrim", new List<int> { 10, 10, 7, 6}
+    },
+    {
+        "World of Warcraft", new List<int> { 8, 9, 10, 9}
+    },
+    {
+        "Dragon Age: Inquisition", new List<int> { 7, 10, 7, 9}
+    }
+};
+
+// Lista dos Games Alugados
+List<string> gamesAlugados = new List<string>();
+
+// Função para utilização do logo
 void Logo()
 {
     Console.Clear();
-    Console.WriteLine("🇬​​​​​🇦​​​​​🇲​​​​​🇪​​​​​ 🇭​​​​​🇴​​​​​🇺​​​​​🇸​​​​​🇪​​​​​");
-    Console.WriteLine("Seja bem-vindo(a) à nossa locadora de jogos!\n");
+    Console.WriteLine(@"
+░██████╗░░█████╗░███╗░░░███╗███████╗  ██╗░░██╗░█████╗░██╗░░░██╗░██████╗███████╗
+██╔════╝░██╔══██╗████╗░████║██╔════╝  ██║░░██║██╔══██╗██║░░░██║██╔════╝██╔════╝
+██║░░██╗░███████║██╔████╔██║█████╗░░  ███████║██║░░██║██║░░░██║╚█████╗░█████╗░░
+██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░  ██╔══██║██║░░██║██║░░░██║░╚═══██╗██╔══╝░░
+╚██████╔╝██║░░██║██║░╚═╝░██║███████╗  ██║░░██║╚█████╔╝╚██████╔╝██████╔╝███████╗
+░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝  ╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═════╝░╚══════╝");
+    Console.WriteLine("\nSeja bem-vindo(a) à nossa locadora de jogos!\n");
 }
 
+// Função para utilização do menu
 void MenuPrincipal()
 {
     Logo();
@@ -30,25 +58,85 @@ void MenuPrincipal()
             AlugarGame();
             break;
         case 3:
-            ListaDeGamesAlugados();
+            Console.WriteLine("Exemplo");
             break;
         case 4:
-            SolicitarNovoGame();
+            Console.WriteLine("Exemplo");
             break;
         case 5:
-            ListaDeGamesSolicitados();
+            Console.WriteLine("Exemplo");
             break;
         case 6:
-            AvaliarGame();
+            Console.WriteLine("Exemplo");
             break;
         case 7:
-            MediaNotas();
+            Console.WriteLine("Exemplo");
             break;
         case 0:
-            Console.WriteLine("Obrigado por alugar games conosco. Até a próxima!");
+            Console.WriteLine("\nObrigado por alugar games conosco. Até a próxima!");
             break;
         default:
-            Console.WriteLine("Opção inválida... Digite outro valor.");
+            Console.WriteLine("\nOpção inválida... Digite outro valor.");
             break;
     }
 }
+
+// Função para exibir o título
+void Titulo(string titulo)
+{
+    int tamanho = titulo.Length;
+    string borda = string.Empty.PadLeft(tamanho, '-');
+
+    Console.Clear();
+    Console.WriteLine(titulo);
+    Console.WriteLine($"{borda}\n");
+}
+
+// Função para listar os games e suas notas
+void ListaDeGames()
+{
+    Titulo("Lista dos Games");
+
+    foreach (string game in games.Keys)
+    {
+        Console.WriteLine($"Game: {game}");
+        Console.Write("Notas: ");
+        foreach (int nota in games[game])
+        {
+            Console.Write($"{nota} ");
+        }
+        Console.WriteLine("\n");
+    }
+
+    Console.Write("Digite uma tecla para voltar ao menu principal. ");
+    Console.ReadKey();
+    MenuPrincipal();
+
+}
+
+// Função para alugar um game
+void AlugarGame()
+{
+    Titulo("Alugar Game");
+
+    Console.Write("Digite o nome do game que deseja alugar: ");
+    string nomeDoGame = Console.ReadLine()!;
+
+    if (games.ContainsKey(nomeDoGame))
+    {
+        gamesAlugados.Add(nomeDoGame);
+        Console.WriteLine($"O game {nomeDoGame} foi alugado com sucesso!");
+        Thread.Sleep(4000);
+        MenuPrincipal();
+    }
+    else
+    {
+        Console.WriteLine($"\nSinto muito, mas não possuímos o game {nomeDoGame} em nossa locadora...");
+        Console.Write("\nDigite uma tecla para voltar ao menu principal. ");
+        Console.ReadKey();
+        MenuPrincipal();
+    }
+} 
+
+// Chama o menu principal
+MenuPrincipal();
