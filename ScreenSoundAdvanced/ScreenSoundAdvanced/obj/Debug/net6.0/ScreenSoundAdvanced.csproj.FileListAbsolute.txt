@@ -1,0 +1,14 @@
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\bin\Debug\net6.0\ScreenSoundAdvanced.exe
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\bin\Debug\net6.0\ScreenSoundAdvanced.deps.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\bin\Debug\net6.0\ScreenSoundAdvanced.runtimeconfig.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\bin\Debug\net6.0\ScreenSoundAdvanced.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\bin\Debug\net6.0\ScreenSoundAdvanced.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.AssemblyInfoInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.AssemblyInfo.cs
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\refint\ScreenSoundAdvanced.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ScreenSoundAdvanced.genruntimeconfig.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\ScreenSoundAdvanced\ScreenSoundAdvanced\obj\Debug\net6.0\ref\ScreenSoundAdvanced.dll
