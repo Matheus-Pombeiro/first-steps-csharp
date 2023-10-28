@@ -1,14 +1,11 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "Ressucita-me";
-musica1.artista = "Aline Barros";
-musica1.duracao = 289;
-musica1.disponivel = true;
+﻿Album AlbumAlineBarros = new Album();
+AlbumAlineBarros.Nome = "Som de Adoradores";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Casa de Deus";
 
 Musica musica2 = new Musica();
-musica2.nome = "Meu Barquinho";
-musica2.artista = "Giselli Cristina";
-musica2.duracao = 322;
-musica2.disponivel = false;
+musica2.Nome = "Águas do Trono";
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+AlbumAlineBarros.AddMusica(musica1);
+AlbumAlineBarros.AddMusica(musica2);
