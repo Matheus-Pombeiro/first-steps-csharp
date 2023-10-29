@@ -1,0 +1,14 @@
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\bin\Debug\net6.0\CharacterSheetRPGGames.exe
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\bin\Debug\net6.0\CharacterSheetRPGGames.deps.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\bin\Debug\net6.0\CharacterSheetRPGGames.runtimeconfig.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\bin\Debug\net6.0\CharacterSheetRPGGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\bin\Debug\net6.0\CharacterSheetRPGGames.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.AssemblyInfoInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.AssemblyInfo.cs
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.csproj.CoreCompileInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\refint\CharacterSheetRPGGames.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\CharacterSheetRPGGames.genruntimeconfig.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\CharacterSheetRPGGames\CharacterSheetRPGGames\obj\Debug\net6.0\ref\CharacterSheetRPGGames.dll

@@ -1,0 +1,14 @@
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\bin\Debug\net6.0\PodcastChallenge.exe
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\bin\Debug\net6.0\PodcastChallenge.deps.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\bin\Debug\net6.0\PodcastChallenge.runtimeconfig.json
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\bin\Debug\net6.0\PodcastChallenge.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\bin\Debug\net6.0\PodcastChallenge.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.AssemblyInfoInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.AssemblyInfo.cs
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.csproj.CoreCompileInputs.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\refint\PodcastChallenge.dll
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.pdb
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\PodcastChallenge.genruntimeconfig.cache
+C:\Users\pombe\OneDrive\Documentos\Dev\first-steps-csharp\PodcastChallenge\PodcastChallenge\obj\Debug\net6.0\ref\PodcastChallenge.dll

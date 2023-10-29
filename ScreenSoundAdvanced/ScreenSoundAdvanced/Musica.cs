@@ -1,19 +1,24 @@
-﻿using System.Threading.Channels;
-
-public class Musica
+﻿class Musica
 {
-    public string Nome { get; set; }
-    public string Artista { get; set; }
+    public Musica(Banda artista, string nome, Genero genero)
+    {
+        Artista = artista;
+        Nome = nome;
+        Genero = genero;
+    }
+
+    public string Nome { get; }
+    public Banda Artista { get; }
     public int Duracao { get; set; }
     public bool Disponivel { get; set; }
     // Método get com lambda (arrow function)
-    public string DescricaoResumida => $"A música {Nome} pertence à banda {Artista}";
-    public Genero Genero { get; set; }  
+    public string DescricaoResumida => $"A música {Nome} pertence à banda {Artista.Nome}";
+    public Genero Genero { get; }  
 
     public void ExibirFichaTecnica()
     {
         Console.WriteLine($"Nome: {Nome}");
-        Console.WriteLine($"Artista: {Artista}");
+        Console.WriteLine($"Artista: {Artista.Nome}");
         Console.WriteLine($"Duração: {Duracao}");
         Console.WriteLine($"Gênero: {Genero.Nome}");
         if (Disponivel)
