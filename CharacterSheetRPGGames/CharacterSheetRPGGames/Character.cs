@@ -45,26 +45,36 @@
         Console.WriteLine($"{Name}'s Sheet");
         Underline($"{Name}'s Sheet");
 
-        Console.WriteLine("\nItems:");
-        Underline("Items:");
-        foreach (Items item in items.OrderBy(e => e.Value))
+        if (items.Count > 0)
         {
-            Console.WriteLine(item.description);
+            Console.WriteLine("\nItems:");
+            Underline("Items:");
+            foreach (Items item in items.OrderBy(e => - e.Value))
+            {
+                Console.WriteLine(item.description);
+            }
         }
 
-        Console.WriteLine("\nSpells:");
-        Underline("Spells:");
-        foreach (Spells spell in spells)
+        if (spells.Count > 0)
         {
-            Console.WriteLine(spell.description);
-        }
-        Console.WriteLine("\nSkills:");
-        Underline("Skills:");
-        foreach (Skills skill in skills)
-        {
-            Console.WriteLine(skill.description);
+            Console.WriteLine("\nSpells:");
+            Underline("Spells:");
+            foreach (Spells spell in spells)
+            {
+                Console.WriteLine(spell.description);
+            }
         }
 
+        if (skills.Count > 0)
+        {
+            Console.WriteLine("\nSkills:");
+            Underline("Skills:");
+            foreach (Skills skill in skills)
+            {
+                Console.WriteLine(skill.description);
+            }
+        }
+        
         Console.WriteLine("\n");
     }
 }
