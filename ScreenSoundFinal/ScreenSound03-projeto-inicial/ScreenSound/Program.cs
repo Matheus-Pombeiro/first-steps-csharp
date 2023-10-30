@@ -3,9 +3,9 @@
 Banda alineBarros = new("Aline Barros");
 Banda regisDanese = new("Regis Danese");
 
-alineBarros.AdicionarNota(10);
-alineBarros.AdicionarNota(8);
-alineBarros.AdicionarNota(6);
+alineBarros.AdicionarNota(new Avaliacao(10));
+alineBarros.AdicionarNota(new Avaliacao(8));
+alineBarros.AdicionarNota(new Avaliacao(6));
 
 Dictionary<string, Banda> bandasRegistradas = new();
 bandasRegistradas.Add(alineBarros.Nome, alineBarros);
@@ -145,7 +145,7 @@ void AvaliarUmaBanda()
         Banda banda = bandasRegistradas[nomeDaBanda];
         Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
         int nota = int.Parse(Console.ReadLine()!);
-        banda.AdicionarNota(nota);
+        banda.AdicionarNota(new Avaliacao(nota));
         Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a banda {nomeDaBanda}");
         Thread.Sleep(2000);
         Console.Clear();
